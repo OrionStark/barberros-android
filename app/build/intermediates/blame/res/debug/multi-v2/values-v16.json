@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/orionstark/Documents/barber/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v16/values-v16.xml",
+            "outputFile": "/media/evan/F11B-F13C/Barberros/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v16/values-v16.xml",
             "map": [
                 {
-                    "source": "/home/orionstark/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/c855814e2070e7d1953b436c6fabae17/res/values-v16/values-v16.xml",
+                    "source": "/home/evan/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/5a524ec1dc29c5d26f6a40242208be23/res/values-v16/values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "/home/orionstark/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/5352c204ce1aaf705a8dc04291113e50/res/values-v16/values-v16.xml",
+                    "source": "/home/evan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/e2a10cc3c4ed880ca3866f7290d28fe8/res/values-v16/values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

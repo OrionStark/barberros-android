@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/orionstark/Documents/barber/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-land/values-land.xml",
+            "outputFile": "/media/evan/F11B-F13C/Barberros/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-land/values-land.xml",
             "map": [
                 {
-                    "source": "/home/orionstark/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/5352c204ce1aaf705a8dc04291113e50/res/values-land/values-land.xml",
+                    "source": "/home/evan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/e2a10cc3c4ed880ca3866f7290d28fe8/res/values-land/values-land.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "/home/orionstark/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/75606c996df84803ad27ad9ae43b3e11/res/values-land/values-land.xml",
+                    "source": "/home/evan/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/da0811719451056f9e72b27b7c017da1/res/values-land/values-land.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

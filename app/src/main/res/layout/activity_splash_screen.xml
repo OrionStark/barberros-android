@@ -4,15 +4,36 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.orionstark.barberros.SplashScreen">
+    tools:context="com.example.orionstark.barberros.SplashScreen"
+    android:background="@drawable/splash_background">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="368dp"
+        android:layout_height="551dp"
+        android:padding="35dp"
+        android:gravity="center_vertical">
+        <TextView
+            android:id="@+id/title_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/barberros"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:textSize="48sp"
+            android:layout_marginBottom="20dp"/>
+        <TextView
+            android:id="@+id/description_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/text_Barberros"
+            android:textColor="#ffffff"
+            android:textSize="17sp"
+            android:textAlignment="center"/>
+    </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>

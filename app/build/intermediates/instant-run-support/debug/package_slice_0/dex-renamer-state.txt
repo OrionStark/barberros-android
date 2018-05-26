@@ -1,0 +1,4 @@
+#Sat May 26 22:58:43 WIB 2018
+base.0=/media/evan/F11B-F13C/Barberros/app/build/intermediates/transforms/dexMerger/debug/20
+path.0=classes.dex
+renamed.0=classes.dex
