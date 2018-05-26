@@ -1,0 +1,19 @@
+#Internal package file, do not edit.
+#Sat May 26 23:10:30 WIB 2018
+1.base=/media/evan/F11B-F13C/Barberros/app/build/intermediates/assets/debug
+2.path=Dosis-Regular.ttf
+0.baseType=DIRECTORY
+3.baseType=DIRECTORY
+2.base=/media/evan/F11B-F13C/Barberros/app/build/intermediates/assets/debug
+3.set=ASSET
+2.set=ASSET
+1.baseType=DIRECTORY
+3.path=Poppins-Medium.ttf
+count=4
+1.set=ASSET
+0.path=BreeSerif-Regular.ttf
+3.base=/media/evan/F11B-F13C/Barberros/app/build/intermediates/assets/debug
+0.set=ASSET
+0.base=/media/evan/F11B-F13C/Barberros/app/build/intermediates/assets/debug
+2.baseType=DIRECTORY
+1.path=NovaFlat.ttf
