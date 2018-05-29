@@ -1,0 +1,35 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.orionstark.barberros.controllers.fragments.ConfirmPassFragment">
+
+   <LinearLayout
+       android:orientation="vertical"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:padding="10dp">
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:textColor="@color/colorPrimary"
+           android:text="Confirm your second password"/>
+       <EditText
+           android:layout_marginTop="5dp"
+           android:layout_width="match_parent"
+           android:layout_height="45dp"
+           android:hint="Second Password"
+           android:textSize="15sp"
+           android:padding="6dp"
+           android:drawableLeft="@drawable/security"
+           android:background="@drawable/border"/>
+       <Button
+           android:id="@+id/confirm_pass_btn"
+           android:layout_width="match_parent"
+           android:layout_height="56dp"
+           android:backgroundTint="@color/colorPrimary"
+           android:textColor="#FFF"
+           android:text="CONFIRM"/>
+   </LinearLayout>
+
+</FrameLayout>

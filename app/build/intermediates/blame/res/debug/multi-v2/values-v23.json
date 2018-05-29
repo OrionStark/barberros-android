@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/media/evan/F11B-F13C/Barberros/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v23/values-v23.xml",
+            "outputFile": "/home/orionstark/Documents/barber/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v23/values-v23.xml",
             "map": [
                 {
-                    "source": "/home/evan/.gradle/caches/transforms-1/files-1.1/cardview-v7-26.1.0.aar/cba25642dfaa1ca6ac5b8542fb5e0729/res/values-v23/values-v23.xml",
+                    "source": "/home/orionstark/.gradle/caches/transforms-1/files-1.1/cardview-v7-26.1.0.aar/dd8323f6edb3d5a8087bf0aaf8deed69/res/values-v23/values-v23.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "/home/evan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/e2a10cc3c4ed880ca3866f7290d28fe8/res/values-v23/values-v23.xml",
+                    "source": "/home/orionstark/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/5352c204ce1aaf705a8dc04291113e50/res/values-v23/values-v23.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,19,32,33,34,35,36",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4",

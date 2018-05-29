@@ -27,7 +27,7 @@
         android:testOnly="true"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="com.example.orionstark.barberros.SplashScreen"
+            android:name="com.example.orionstark.barberros.controllers.activities.SplashScreen"
             android:screenOrientation="portrait" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -36,16 +36,16 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.example.orionstark.barberros.controllers.Login_Page"
-            android:theme="@style/AppTheme" />
+            android:name="com.example.orionstark.barberros.controllers.activities.AuthScreen"
+            android:label="Welcome"
+            android:windowSoftInputMode="adjustResize" />
         <activity
-            android:name="com.example.orionstark.barberros.controllers.Register"
-            android:label="@string/register"
-            android:theme="@style/AppTheme" />
+            android:name="com.example.orionstark.barberros.controllers.activities.HomeActivity"
+            android:label="Home" />
         <activity
-            android:name="com.example.orionstark.barberros.controllers.Forgot_Password"
-            android:label="@string/forgot"
-            android:theme="@style/AppTheme" />
+            android:name="com.example.orionstark.barberros.controllers.activities.PassConfigActivity"
+            android:label="Password Config" >
+        </activity>
 
         <meta-data
             android:name="android.support.VERSION"
