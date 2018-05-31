@@ -1,19 +1,19 @@
 #Internal package file, do not edit.
-#Tue May 29 16:15:40 WIB 2018
-1.base=/home/orionstark/Documents/barber/app/build/intermediates/assets/debug
-2.path=Poppins-Medium.ttf
+#Thu May 31 16:24:47 WIB 2018
+1.base=/media/evan/F11B-F13C/Barberros/barberros-android/app/build/intermediates/assets/debug
+2.path=BreeSerif-Regular.ttf
 0.baseType=DIRECTORY
 3.baseType=DIRECTORY
-2.base=/home/orionstark/Documents/barber/app/build/intermediates/assets/debug
+2.base=/media/evan/F11B-F13C/Barberros/barberros-android/app/build/intermediates/assets/debug
 3.set=ASSET
 2.set=ASSET
 1.baseType=DIRECTORY
-3.path=BreeSerif-Regular.ttf
+3.path=Dosis-Regular.ttf
 count=4
 1.set=ASSET
-0.path=Dosis-Regular.ttf
-3.base=/home/orionstark/Documents/barber/app/build/intermediates/assets/debug
+0.path=NovaFlat.ttf
+3.base=/media/evan/F11B-F13C/Barberros/barberros-android/app/build/intermediates/assets/debug
 0.set=ASSET
-0.base=/home/orionstark/Documents/barber/app/build/intermediates/assets/debug
+0.base=/media/evan/F11B-F13C/Barberros/barberros-android/app/build/intermediates/assets/debug
 2.baseType=DIRECTORY
-1.path=NovaFlat.ttf
+1.path=Poppins-Medium.ttf

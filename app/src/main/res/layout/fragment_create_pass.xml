@@ -13,12 +13,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textColor="@color/colorPrimary"
-            android:text="Confirm your second password"/>
+            android:text="Confirm your PIN"/>
         <EditText
             android:layout_marginTop="5dp"
             android:layout_width="match_parent"
             android:layout_height="45dp"
             android:hint="New Password"
+            android:maxLines="1"
+            android:inputType="textPassword"
             android:textSize="15sp"
             android:padding="6dp"
             android:drawableLeft="@drawable/security"
@@ -27,6 +29,8 @@
             android:layout_marginTop="5dp"
             android:layout_width="match_parent"
             android:layout_height="45dp"
+            android:maxLines="1"
+            android:inputType="textPassword"
             android:hint="Confirm Password"
             android:textSize="15sp"
             android:padding="6dp"

@@ -41,7 +41,7 @@
             android:windowSoftInputMode="adjustResize" />
         <activity
             android:name="com.example.orionstark.barberros.controllers.activities.HomeActivity"
-            android:label="Home" />
+            android:label="Barberros" />
         <activity
             android:name="com.example.orionstark.barberros.controllers.activities.PassConfigActivity"
             android:label="Password Config" >

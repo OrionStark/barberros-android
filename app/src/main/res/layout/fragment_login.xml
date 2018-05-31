@@ -15,19 +15,24 @@
             android:layout_width="64dp"
             android:layout_height="64dp" />
     </LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center">
     <LinearLayout
         android:id="@+id/login_container"
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:gravity="center">
+        android:gravity="center"
+        android:layout_gravity="center">
         <LinearLayout
             android:orientation="horizontal"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
             <ImageView
-                android:layout_width="64dp"
-                android:layout_height="64dp"
+                android:layout_width="110dp"
+                android:layout_height="100dp"
                 android:src="@drawable/logo"/>
             <LinearLayout
                 android:orientation="vertical"
@@ -37,37 +42,41 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textColor="@color/colorPrimary"
-                    android:textSize="20sp"
+                    android:textSize="30sp"
                     android:text="BARBERROS"
                     android:textStyle="bold"/>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textColor="@color/colorPrimary"
+                    android:textSize="18sp"
                     android:text="Get the best quality\nfor your hair"/>
             </LinearLayout>
         </LinearLayout>
         <EditText
             android:layout_marginTop="24dp"
-            android:layout_width="230dp"
+            android:layout_width="300dp"
             android:layout_height="46dp"
             android:hint="Username"
+            android:maxLength="20"
             android:padding="5dp"
             android:maxLines="1"
+            android:inputType="text"
             android:textSize="14sp"
             android:background="@drawable/border_radius"/>
         <EditText
             android:layout_marginTop="6dp"
-            android:layout_width="230dp"
+            android:layout_width="300dp"
             android:layout_height="46dp"
             android:hint="Password"
             android:maxLines="1"
+            android:inputType="textPassword"
             android:padding="5dp"
             android:textSize="14sp"
             android:background="@drawable/border_radius"/>
         <Button
             android:id="@+id/login_button"
-            android:layout_width="230dp"
+            android:layout_width="300dp"
             android:layout_height="56dp"
             android:backgroundTint="@color/colorPrimary"
             android:textColor="#FFF"
@@ -78,6 +87,7 @@
             android:layout_height="wrap_content"
             android:textColor="@color/colorPrimary"
             android:text="REGISTER"
+            android:textSize="18sp"
             android:textStyle="bold"
             android:layout_marginTop="6dp"/>
         <TextView
@@ -85,6 +95,7 @@
             android:layout_height="wrap_content"
             android:textColor="@color/colorPrimary"
             android:text="or"
+            android:textSize="18sp"
             android:layout_marginTop="6dp"/>
         <TextView
             android:id="@+id/forgot_pass_nav"
@@ -92,7 +103,8 @@
             android:layout_height="wrap_content"
             android:textColor="@color/colorPrimary"
             android:text="Forgot your password"
+            android:textSize="18sp"
             android:layout_marginTop="6dp"/>
     </LinearLayout>
-
+    </ScrollView>
 </FrameLayout>

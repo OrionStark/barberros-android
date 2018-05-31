@@ -13,12 +13,27 @@
            android:layout_width="wrap_content"
            android:layout_height="wrap_content"
            android:textColor="@color/colorPrimary"
-           android:text="Confirm your second password"/>
+           android:text="Confirm your PIN"/>
        <EditText
            android:layout_marginTop="5dp"
            android:layout_width="match_parent"
            android:layout_height="45dp"
-           android:hint="Second Password"
+           android:hint="Username"
+           android:maxLines="1"
+           android:maxLength="20"
+           android:inputType="text"
+           android:textSize="15sp"
+           android:padding="6dp"
+           android:drawableLeft="@drawable/person"
+           android:background="@drawable/border"/>
+       <EditText
+           android:layout_marginTop="5dp"
+           android:layout_width="match_parent"
+           android:layout_height="45dp"
+           android:hint="PIN"
+           android:maxLines="1"
+           android:inputType="number"
+           android:maxLength="6"
            android:textSize="15sp"
            android:padding="6dp"
            android:drawableLeft="@drawable/security"

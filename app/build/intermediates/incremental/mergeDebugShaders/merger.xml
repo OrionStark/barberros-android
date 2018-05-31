@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="/home/orionstark/Documents/barber/app/src/main/shaders"/></dataSet><dataSet config="debug"><source path="/home/orionstark/Documents/barber/app/src/debug/shaders"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="/media/evan/F11B-F13C/Barberros/barberros-android/app/src/main/shaders"/></dataSet><dataSet config="debug"><source path="/media/evan/F11B-F13C/Barberros/barberros-android/app/src/debug/shaders"/></dataSet></merger>
