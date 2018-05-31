@@ -31,7 +31,7 @@
             android:windowSoftInputMode="adjustResize"
             android:label="Welcome"/>
         <activity android:name=".controllers.activities.HomeActivity"
-            android:label="Home"/>
+            android:label="Barberros"/>
         <activity android:name=".controllers.activities.PassConfigActivity"
             android:label="Password Config">
 

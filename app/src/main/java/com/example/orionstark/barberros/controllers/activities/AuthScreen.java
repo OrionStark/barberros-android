@@ -16,6 +16,9 @@ public class AuthScreen extends AppCompatActivity {
     }
 
     private void viewInit() {
+        if (getSupportActionBar()!= null){
+            getSupportActionBar().hide();
+        }
         getSupportFragmentManager()
                 .beginTransaction()
                 .setCustomAnimations(R.anim.slide_in_left, R.anim.slide_out_right)

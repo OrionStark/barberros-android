@@ -52,8 +52,10 @@
                     android:layout_height="45dp"
                     android:padding="5dp"
                     android:hint="Username"
+                    android:maxLength="20"
                     android:textSize="14sp"
                     android:maxLines="1"
+                    android:inputType="text"
                     android:layout_weight="5"
                     android:background="@drawable/border"
                     android:layout_margin="3dp"/>
@@ -62,7 +64,9 @@
                     android:layout_weight="5"
                     android:padding="5dp"
                     android:hint="Phone Number"
+                    android:maxLength="13"
                     android:maxLines="1"
+                    android:inputType="number"
                     android:drawableLeft="@drawable/phone"
                     android:textSize="14sp"
                     android:layout_width="0dp"
@@ -80,6 +84,7 @@
                     android:padding="5dp"
                     android:hint="Full Name"
                     android:maxLines="1"
+                    android:inputType="text"
                     android:drawableLeft="@drawable/person"
                     android:textSize="14sp"
                     android:background="@drawable/border"
@@ -96,6 +101,7 @@
                     android:layout_weight="6"
                     android:padding="5dp"
                     android:maxLines="1"
+                    android:inputType="textPassword"
                     android:hint="Password"
                     android:textSize="14sp"
                     android:background="@drawable/border"
@@ -106,7 +112,38 @@
                     android:layout_width="0dp"
                     android:padding="5dp"
                     android:maxLines="1"
-                    android:hint="Sec Password"
+                    android:inputType="textPassword"
+                    android:hint="Retype Password"
+                    android:textSize="14sp"
+                    android:layout_height="45dp"
+                    android:background="@drawable/border"/>
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp">
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="6"
+                    android:padding="5dp"
+                    android:maxLines="1"
+                    android:inputType="number"
+                    android:maxLength="6"
+                    android:hint="PIN"
+                    android:textSize="14sp"
+                    android:background="@drawable/border"
+                    android:layout_margin="3dp"/>
+                <EditText
+                    android:layout_margin="3dp"
+                    android:layout_weight="4"
+                    android:layout_width="0dp"
+                    android:padding="5dp"
+                    android:maxLines="1"
+                    android:inputType="number"
+                    android:maxLength="6"
+                    android:hint="Retype PIN"
                     android:textSize="14sp"
                     android:layout_height="45dp"
                     android:background="@drawable/border"/>
@@ -120,7 +157,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="45dp"
                     android:maxLines="1"
+                    android:inputType="text"
                     android:padding="5dp"
+                    android:maxLength="40"
                     android:hint="Email"
                     android:drawableLeft="@drawable/email"
                     android:textSize="14sp"
@@ -140,6 +179,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Login"
+                android:textSize="18sp"
                 android:textColor="@color/colorPrimary"/>
         </LinearLayout>
     </ScrollView>
