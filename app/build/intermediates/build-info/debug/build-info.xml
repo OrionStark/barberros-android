@@ -1,135 +1,87 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
-    abi="arm64-v8a,armeabi-v7a,armeabi"
-    api-level="21"
+    abi="armeabi-v7a,armeabi"
+    api-level="23"
     build-mode="COLD"
-    density="xxhdpi"
+    density="hdpi"
     format="10"
-    ir-eligibility="R_CLASS_CHANGE"
-    plugin-version="3.0.1"
-    timestamp="1527770215556"
-    token="5167841699428835793"
+    ir-eligibility="COMPATIBLE"
+    plugin-version="3.1.2"
+    timestamp="1528751933164"
+    token="-1037628863460345775"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="11744" />
+        duration="732" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="475" />
+        duration="247" />
     <task
         name="verifier"
-        duration="402" />
+        duration="191" />
 
     <artifact
-        location="/media/evan/F11B-F13C/Barberros/barberros-android/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
+        location="/home/orionstark/Documents/barberros-android/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
         type="SPLIT" />
     <artifact
-        location="/media/evan/F11B-F13C/Barberros/barberros-android/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
-        type="SPLIT" />
-    <artifact
-        location="/media/evan/F11B-F13C/Barberros/barberros-android/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
-        type="SPLIT" />
-    <artifact
-        location="/media/evan/F11B-F13C/Barberros/barberros-android/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
-        type="SPLIT" />
-    <artifact
-        location="/media/evan/F11B-F13C/Barberros/barberros-android/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
-        type="SPLIT" />
-    <artifact
-        location="/media/evan/F11B-F13C/Barberros/barberros-android/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
-        type="SPLIT" />
-    <artifact
-        location="/media/evan/F11B-F13C/Barberros/barberros-android/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
-        type="SPLIT" />
-    <artifact
-        location="/media/evan/F11B-F13C/Barberros/barberros-android/app/build/outputs/apk/debug/app-debug.apk"
+        location="/home/orionstark/Documents/barberros-android/app/build/intermediates/instant-run-apk/debug/app-debug.apk"
         type="SPLIT_MAIN" />
 
     <build
         build-mode="FULL"
-        timestamp="1527767267199"
+        timestamp="1528751602795"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="/media/evan/F11B-F13C/Barberros/barberros-android/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
+            location="/home/orionstark/Documents/barberros-android/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
             type="SPLIT" />
         <artifact
-            location="/media/evan/F11B-F13C/Barberros/barberros-android/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
+            location="/home/orionstark/Documents/barberros-android/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
             type="SPLIT" />
         <artifact
-            location="/media/evan/F11B-F13C/Barberros/barberros-android/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
+            location="/home/orionstark/Documents/barberros-android/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
             type="SPLIT" />
         <artifact
-            location="/media/evan/F11B-F13C/Barberros/barberros-android/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
+            location="/home/orionstark/Documents/barberros-android/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
             type="SPLIT" />
         <artifact
-            location="/media/evan/F11B-F13C/Barberros/barberros-android/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
+            location="/home/orionstark/Documents/barberros-android/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
             type="SPLIT" />
         <artifact
-            location="/media/evan/F11B-F13C/Barberros/barberros-android/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
+            location="/home/orionstark/Documents/barberros-android/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
             type="SPLIT" />
         <artifact
-            location="/media/evan/F11B-F13C/Barberros/barberros-android/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
+            location="/home/orionstark/Documents/barberros-android/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
             type="SPLIT" />
         <artifact
-            location="/media/evan/F11B-F13C/Barberros/barberros-android/app/build/outputs/apk/debug/app-debug.apk"
+            location="/home/orionstark/Documents/barberros-android/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/orionstark/Documents/barberros-android/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/orionstark/Documents/barberros-android/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/orionstark/Documents/barberros-android/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/orionstark/Documents/barberros-android/app/build/intermediates/instant-run-apk/debug/app-debug.apk"
             type="SPLIT_MAIN" />
-        <artifact
-            location="/media/evan/F11B-F13C/Barberros/barberros-android/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
-            type="SPLIT" />
-        <artifact
-            location="/media/evan/F11B-F13C/Barberros/barberros-android/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
-            type="SPLIT" />
-        <artifact
-            location="/media/evan/F11B-F13C/Barberros/barberros-android/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
-            type="SPLIT" />
-        <artifact
-            location="/media/evan/F11B-F13C/Barberros/barberros-android/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
-            type="SPLIT" />
     </build>
     <build
         build-mode="COLD"
-        ir-eligibility="CLASS_ADDED"
-        timestamp="1527768783356"
+        ir-eligibility="COMPATIBLE"
+        timestamp="1528751933164"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
-            location="/media/evan/F11B-F13C/Barberros/barberros-android/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
+            location="/home/orionstark/Documents/barberros-android/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
             type="SPLIT" />
         <artifact
-            location="/media/evan/F11B-F13C/Barberros/barberros-android/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
-            type="SPLIT" />
-    </build>
-    <build
-        build-mode="COLD"
-        ir-eligibility="R_CLASS_CHANGE"
-        timestamp="1527770215556"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="/media/evan/F11B-F13C/Barberros/barberros-android/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
-            type="SPLIT" />
-        <artifact
-            location="/media/evan/F11B-F13C/Barberros/barberros-android/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
-            type="SPLIT" />
-        <artifact
-            location="/media/evan/F11B-F13C/Barberros/barberros-android/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
-            type="SPLIT" />
-        <artifact
-            location="/media/evan/F11B-F13C/Barberros/barberros-android/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
-            type="SPLIT" />
-        <artifact
-            location="/media/evan/F11B-F13C/Barberros/barberros-android/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
-            type="SPLIT" />
-        <artifact
-            location="/media/evan/F11B-F13C/Barberros/barberros-android/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
-            type="SPLIT" />
-        <artifact
-            location="/media/evan/F11B-F13C/Barberros/barberros-android/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
-            type="SPLIT" />
-        <artifact
-            location="/media/evan/F11B-F13C/Barberros/barberros-android/app/build/outputs/apk/debug/app-debug.apk"
+            location="/home/orionstark/Documents/barberros-android/app/build/intermediates/instant-run-apk/debug/app-debug.apk"
             type="SPLIT_MAIN" />
     </build>
 

@@ -48,6 +48,7 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="4dp">
                 <EditText
+                    android:id="@+id/register_username"
                     android:layout_width="0dp"
                     android:layout_height="45dp"
                     android:padding="5dp"
@@ -60,6 +61,7 @@
                     android:background="@drawable/border"
                     android:layout_margin="3dp"/>
                 <EditText
+                    android:id="@+id/phoneNumber_register"
                     android:layout_margin="3dp"
                     android:layout_weight="5"
                     android:padding="5dp"
@@ -68,6 +70,7 @@
                     android:maxLines="1"
                     android:inputType="number"
                     android:drawableLeft="@drawable/phone"
+                    android:drawablePadding="5dp"
                     android:textSize="14sp"
                     android:layout_width="0dp"
                     android:layout_height="45dp"
@@ -79,12 +82,14 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="4dp">
                 <EditText
+                    android:id="@+id/fullName_register"
                     android:layout_width="match_parent"
                     android:layout_height="45dp"
                     android:padding="5dp"
                     android:hint="Full Name"
                     android:maxLines="1"
                     android:inputType="text"
+                    android:drawablePadding="5dp"
                     android:drawableLeft="@drawable/person"
                     android:textSize="14sp"
                     android:background="@drawable/border"
@@ -96,6 +101,7 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="4dp">
                 <EditText
+                    android:id="@+id/passwordRegister"
                     android:layout_width="0dp"
                     android:layout_height="45dp"
                     android:layout_weight="6"
@@ -107,6 +113,7 @@
                     android:background="@drawable/border"
                     android:layout_margin="3dp"/>
                 <EditText
+                    android:id="@+id/retyPassword_register"
                     android:layout_margin="3dp"
                     android:layout_weight="4"
                     android:layout_width="0dp"
@@ -124,6 +131,7 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="4dp">
                 <EditText
+                    android:id="@+id/pinRegister"
                     android:layout_width="0dp"
                     android:layout_height="45dp"
                     android:layout_weight="6"
@@ -136,6 +144,7 @@
                     android:background="@drawable/border"
                     android:layout_margin="3dp"/>
                 <EditText
+                    android:id="@+id/retypePinRegister"
                     android:layout_margin="3dp"
                     android:layout_weight="4"
                     android:layout_width="0dp"
@@ -154,6 +163,7 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="4dp">
                 <EditText
+                    android:id="@+id/emailRegister"
                     android:layout_width="match_parent"
                     android:layout_height="45dp"
                     android:maxLines="1"

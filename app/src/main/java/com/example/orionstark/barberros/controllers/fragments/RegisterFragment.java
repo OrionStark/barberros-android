@@ -1,5 +1,7 @@
 package com.example.orionstark.barberros.controllers.fragments;
 
+import android.app.AlertDialog;
+import android.content.DialogInterface;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.text.TextUtils;
@@ -9,9 +11,12 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.example.orionstark.barberros.R;
-import com.example.orionstark.barberros.controllers.fragments.LoginFragment;
+import com.example.orionstark.barberros.services.BarberrosService;
+
+import org.json.JSONException;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -38,14 +43,14 @@ public class RegisterFragment extends Fragment {
     }
 
     private void initView() {
-        username= (EditText)view.findViewById(R.id.username);
-        number= (EditText)view.findViewById(R.id.number);
-        fullname= (EditText)view.findViewById(R.id.fullname);
-        pass= (EditText)view.findViewById(R.id.pass);
-        conf_pass= (EditText)view.findViewById(R.id.conf_pass);
-        pin= (EditText)view.findViewById(R.id.pin);
-        conf_pin= (EditText)view.findViewById(R.id.conf_pin);
-        email= (EditText)view.findViewById(R.id.email);
+        username = view.findViewById(R.id.register_username);
+        number = view.findViewById(R.id.phoneNumber_register);
+        fullname = view.findViewById(R.id.fullName_register);
+        pass = view.findViewById(R.id.passwordRegister);
+        conf_pass = view.findViewById(R.id.retyPassword_register);
+        pin = view.findViewById(R.id.pinRegister);
+        conf_pin = view.findViewById(R.id.retypePinRegister);
+        email = view.findViewById(R.id.emailRegister);
         register_btn = view.findViewById(R.id.register_btn);
         login_nav = view.findViewById(R.id.login_nav);
 
@@ -55,43 +60,41 @@ public class RegisterFragment extends Fragment {
 
                 if (TextUtils.isEmpty(username.getText().toString())) {
                     valid = false;
-                    username.setError("field is require");
+                    username.setError("Field is require");
                 } else if (TextUtils.isEmpty(number.getText().toString())) {
                     valid = false;
-                    number.setError("field is require");
+                    number.setError("Field is require");
                 } else if (number.getText().length() < 11 || number.getText().length() > 13 )  {
                     valid = false;
-                    number.setError("number phone is not valid");
-                }
-                else if (TextUtils.isEmpty(fullname.getText().toString())) {
+                    number.setError("Number phone is not valid");
+                } else if (TextUtils.isEmpty(fullname.getText().toString())) {
                     valid = false;
-                    fullname.setError("field is require");
+                    fullname.setError("Field is require");
                 } else if (TextUtils.isEmpty(pass.getText().toString())) {
                     valid = false;
-                    pass.setError("field is require");
-                }else if (pass.getText().toString().length() <7 ) {
+                    pass.setError("Field is require");
+                } else if (pass.getText().toString().length() <7 ) {
                     valid = false;
                     pass.setError("Password at least is 7 character");
-                }else if (!pass.getText().toString().equals(conf_pass.getText().toString())){
+                } else if (!pass.getText().toString().equals(conf_pass.getText().toString())){
                     valid=false;
-                    conf_pass.setError("password not match");
-                }
-                else if (TextUtils.isEmpty(conf_pass.getText().toString())) {
+                    conf_pass.setError("Password not match");
+                } else if (TextUtils.isEmpty(conf_pass.getText().toString())) {
                     valid = false;
-                    conf_pass.setError("field is require");
+                    conf_pass.setError("Field is require");
                 } else if (TextUtils.isEmpty(pin.getText().toString())) {
                     valid = false;
-                    pin.setError("field is require");
-                }else if (!pin.getText().toString().equals(conf_pin.getText().toString())){
+                    pin.setError("Field is require");
+                } else if (!pin.getText().toString().equals(conf_pin.getText().toString())){
                     valid=false;
-                    conf_pin.setError("pin not match");
+                    conf_pin.setError("Pin not match");
                 } else if (TextUtils.isEmpty(conf_pin.getText().toString())) {
                     valid = false;
-                    conf_pass.setError("field is require");
+                    conf_pass.setError("Field is require");
                 } else if (TextUtils.isEmpty(email.getText().toString())) {
                     valid = false;
-                    email.setError("field is require");
-                }else if (!isemailvalid(email.getText().toString())){
+                    email.setError("Field is require");
+                } else if (!isemailvalid(email.getText().toString())){
                     valid=false;
                     email.setError("Email is not valid");
                 }
@@ -100,11 +103,35 @@ public class RegisterFragment extends Fragment {
                 }
 
                 if (valid) {
-                    getFragmentManager()
-                            .beginTransaction()
-                            .setCustomAnimations(R.anim.slide_in_left, R.anim.slide_out_right)
-                            .replace(R.id.auth_router_outlet, new LoginFragment())
-                            .commit();
+                    try {
+                        BarberrosService.register(
+                                username.getText().toString(),
+                                pass.getText().toString(),
+                                conf_pass.getText().toString(),
+                                email.getText().toString(),
+                                fullname.getText().toString(),
+                                number.getText().toString(),
+                                getContext(),
+                                new BarberrosService.RegisterCallback() {
+                                    @Override
+                                    public void onSucceed(String message) {
+                                        Toast.makeText(getContext(), message, Toast.LENGTH_SHORT).show();
+                                        getFragmentManager()
+                                                .beginTransaction()
+                                                .setCustomAnimations(R.anim.slide_in_left, R.anim.slide_out_right)
+                                                .replace(R.id.auth_router_outlet, new LoginFragment())
+                                                .commit();
+                                    }
+
+                                    @Override
+                                    public void onError(String message) {
+                                        ErrorDialog(message);
+                                    }
+                                }
+                        );
+                    } catch (JSONException e) {
+                        ErrorDialog(e.getMessage());
+                    }
                 }
             }
 
@@ -125,22 +152,26 @@ public class RegisterFragment extends Fragment {
 
 
     }
+
     public static boolean isemailvalid(String email) {
-//        String _expression = "^[\\w\\.-]+@([\\w\\-]+\\.)+[A-Z]{2,4}$";
         String _expression = "^[a-z]([a-z0-9-\\.]+)?+@[a-z]+\\.[a-z]{2,10}+(\\.[a-z]{2,10})?$";
         CharSequence _email = email;
         Pattern _pattern = Pattern.compile(_expression, Pattern.CASE_INSENSITIVE);
         Matcher _mathcer = _pattern.matcher(_email);
 
-        if (_mathcer.matches()) {
-            return true;
-        }
-        return false;
+        return _mathcer.matches();
     }
 
-
-
-
-
-
+    private void ErrorDialog(String message) {
+        AlertDialog.Builder builder = new AlertDialog.Builder(getContext());
+        builder.setTitle("Oops");
+        builder.setMessage(message);
+        builder.setPositiveButton("Ok", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialogInterface, int i) {
+                dialogInterface.cancel();
+            }
+        });
+        builder.show();
+    }
 }

@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/media/evan/F11B-F13C/Barberros/barberros-android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v22/values-v22.xml",
+            "outputFile": "/home/orionstark/Documents/barberros-android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v22/values-v22.xml",
             "map": [
                 {
-                    "source": "/home/evan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/e2a10cc3c4ed880ca3866f7290d28fe8/res/values-v22/values-v22.xml",
+                    "source": "/home/orionstark/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/58395a01a0d4528cc51cb1d098f7e33a/res/values-v22/values-v22.xml",
                     "from": {
                         "startLines": "2,3,4,9",
                         "startColumns": "4,4,4,4",

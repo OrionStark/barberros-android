@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/media/evan/F11B-F13C/Barberros/barberros-android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v26/values-v26.xml",
+            "outputFile": "/home/orionstark/Documents/barberros-android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v26/values-v26.xml",
             "map": [
                 {
-                    "source": "/home/evan/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/da0811719451056f9e72b27b7c017da1/res/values-v26/values-v26.xml",
+                    "source": "/home/orionstark/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/1e116dfd91d213b98ffcc3b9665cb5d8/res/values-v26/values-v26.xml",
                     "from": {
                         "startLines": "2,6",
                         "startColumns": "4,4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "/home/evan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/e2a10cc3c4ed880ca3866f7290d28fe8/res/values-v26/values-v26.xml",
+                    "source": "/home/orionstark/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/58395a01a0d4528cc51cb1d098f7e33a/res/values-v26/values-v26.xml",
                     "from": {
                         "startLines": "2,3,4,8,12,16",
                         "startColumns": "4,4,4,4,4,4",
