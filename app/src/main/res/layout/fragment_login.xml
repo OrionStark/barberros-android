@@ -54,6 +54,7 @@
             </LinearLayout>
         </LinearLayout>
         <EditText
+            android:id="@+id/username_login_field"
             android:layout_marginTop="24dp"
             android:layout_width="300dp"
             android:layout_height="46dp"
@@ -65,6 +66,7 @@
             android:textSize="14sp"
             android:background="@drawable/border_radius"/>
         <EditText
+            android:id="@+id/password_login_field"
             android:layout_marginTop="6dp"
             android:layout_width="300dp"
             android:layout_height="46dp"

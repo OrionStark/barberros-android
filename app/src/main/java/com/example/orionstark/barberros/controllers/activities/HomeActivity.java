@@ -1,5 +1,6 @@
 package com.example.orionstark.barberros.controllers.activities;
 
+import android.content.Intent;
 import android.support.design.widget.TabLayout;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
@@ -14,6 +15,7 @@ import com.example.orionstark.barberros.controllers.fragments.FavoriteFragment;
 import com.example.orionstark.barberros.controllers.fragments.NotificationFragment;
 import com.example.orionstark.barberros.R;
 import com.example.orionstark.barberros.adapters.ViewPagerAdapter;
+import com.example.orionstark.barberros.utils.UserPreference;
 
 public class HomeActivity extends AppCompatActivity {
     ViewPager viewPager;
@@ -61,10 +63,22 @@ public class HomeActivity extends AppCompatActivity {
             case R.id.search:
                 return true;
             case R.id.profil:
+                startActivity(new Intent(this, ProfileActivity.class));
                 return true;
 
             default:
                 return super.onOptionsItemSelected(item);
+        }
+    }
+
+    @Override
+    protected void onResume() {
+        if (UserPreference.getInstance(this).isUserLoggedIn()) {
+            super.onResume();
+        } else {
+            super.onResume();
+            startActivity(new Intent(this, AuthScreen.class));
+            finish();
         }
     }
 }
