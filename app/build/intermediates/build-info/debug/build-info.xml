@@ -5,27 +5,30 @@
     build-mode="COLD"
     density="hdpi"
     format="10"
-    ir-eligibility="COMPATIBLE"
+    ir-eligibility="FIELD_TYPE_CHANGE"
     plugin-version="3.1.2"
-    timestamp="1528997417493"
+    timestamp="1529489156541"
     token="-1037628863460345775"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="1243" />
+        duration="3937" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="1320" />
+        duration="67" />
     <task
         name="verifier"
-        duration="585" />
+        duration="23" />
 
     <artifact
-        location="/home/orionstark/Documents/barberros-android/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
+        location="/home/orionstark/Documents/barberros-android/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/orionstark/Documents/barberros-android/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
         type="SPLIT" />
     <artifact
         location="/home/orionstark/Documents/barberros-android/app/build/intermediates/instant-run-apk/debug/app-debug.apk"
@@ -33,13 +36,10 @@
 
     <build
         build-mode="FULL"
-        timestamp="1528996755213"
+        timestamp="1529488766290"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="/home/orionstark/Documents/barberros-android/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/orionstark/Documents/barberros-android/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
+            location="/home/orionstark/Documents/barberros-android/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
             type="SPLIT" />
         <artifact
             location="/home/orionstark/Documents/barberros-android/app/build/intermediates/instant-run-apk/debug/app-debug.apk"
@@ -48,7 +48,7 @@
             location="/home/orionstark/Documents/barberros-android/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
             type="SPLIT" />
         <artifact
-            location="/home/orionstark/Documents/barberros-android/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
+            location="/home/orionstark/Documents/barberros-android/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
             type="SPLIT" />
         <artifact
             location="/home/orionstark/Documents/barberros-android/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
@@ -71,22 +71,20 @@
         <artifact
             location="/home/orionstark/Documents/barberros-android/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
             type="SPLIT" />
-    </build>
-    <build
-        build-mode="COLD"
-        timestamp="1528997276480"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="/home/orionstark/Documents/barberros-android/app/build/intermediates/instant-run-apk/debug/app-debug.apk"
-            type="SPLIT_MAIN" />
-    </build>
-    <build
-        build-mode="COLD"
-        ir-eligibility="COMPATIBLE"
-        timestamp="1528997417493"
-        verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="/home/orionstark/Documents/barberros-android/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
+            type="SPLIT" />
+    </build>
+    <build
+        build-mode="COLD"
+        ir-eligibility="FIELD_TYPE_CHANGE"
+        timestamp="1529489156541"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="/home/orionstark/Documents/barberros-android/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/orionstark/Documents/barberros-android/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
             type="SPLIT" />
         <artifact
             location="/home/orionstark/Documents/barberros-android/app/build/intermediates/instant-run-apk/debug/app-debug.apk"

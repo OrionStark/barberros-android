@@ -59,7 +59,33 @@ public class BarberrosService {
         }, new Response.ErrorListener() {
             @Override
             public void onErrorResponse(VolleyError error) {
-               callback.onError(error.getMessage());
+                try {
+                    if ( error.networkResponse.data != null ) {
+                        try {
+                            String string = new String( error.networkResponse.data, HttpHeaderParser.parseCharset( error.networkResponse.headers));
+                            JSONObject json = new JSONObject(string);
+                            if ( json.getString("message") != null ) {
+                                callback.onError(json.getString("message"));
+                            } else {
+                                callback.onError("Something went wrong");
+                            }
+                        } catch (Exception e) {
+                            callback.onError("Something went wrong");
+                        }
+                    } else {
+                        if ( error.getMessage() != null ) {
+                            callback.onError(error.getMessage());
+                        } else {
+                            if ( error.getLocalizedMessage() != null ) {
+                                callback.onError(error.getLocalizedMessage());
+                            } else {
+                                callback.onError("Something went wrong");
+                            }
+                        }
+                    }
+                } catch (Exception e) {
+                    callback.onError("Something went wrong");
+                }
             }
         });
         ServiceSingleton.getInstance(context).addRequestToQueue(request, TagList.REGISTER_TAG);
@@ -98,28 +124,32 @@ public class BarberrosService {
         }, new Response.ErrorListener() {
             @Override
             public void onErrorResponse(VolleyError error) {
-                if ( error.networkResponse.data != null ) {
-                    try {
-                        String string = new String( error.networkResponse.data, HttpHeaderParser.parseCharset( error.networkResponse.headers));
-                        JSONObject json = new JSONObject(string);
-                        if ( json.getString("message") != null ) {
-                            callback.onError(json.getString("message"));
-                        } else {
+                try {
+                    if ( error.networkResponse.data != null ) {
+                        try {
+                            String string = new String( error.networkResponse.data, HttpHeaderParser.parseCharset( error.networkResponse.headers));
+                            JSONObject json = new JSONObject(string);
+                            if ( json.getString("message") != null ) {
+                                callback.onError(json.getString("message"));
+                            } else {
+                                callback.onError("Something went wrong");
+                            }
+                        } catch (Exception e) {
                             callback.onError("Something went wrong");
                         }
-                    } catch (Exception e) {
-                        callback.onError("Something went wrong");
-                    }
-                } else {
-                    if ( error.getMessage() != null ) {
-                        callback.onError(error.getMessage());
                     } else {
-                        if ( error.getLocalizedMessage() != null ) {
-                            callback.onError(error.getLocalizedMessage());
+                        if ( error.getMessage() != null ) {
+                            callback.onError(error.getMessage());
                         } else {
-                            callback.onError("Something went wrong");
+                            if ( error.getLocalizedMessage() != null ) {
+                                callback.onError(error.getLocalizedMessage());
+                            } else {
+                                callback.onError("Something went wrong");
+                            }
                         }
                     }
+                } catch (Exception e) {
+                    callback.onError("Something went wrong");
                 }
             }
         });
@@ -176,10 +206,32 @@ public class BarberrosService {
         }, new Response.ErrorListener() {
             @Override
             public void onErrorResponse(VolleyError error) {
-                if ( error.getMessage() != null ) {
-                    callback.onError(error.getMessage());
-                } else {
-                    callback.onError("Unknown error");
+                try {
+                    if ( error.networkResponse.data != null ) {
+                        try {
+                            String string = new String( error.networkResponse.data, HttpHeaderParser.parseCharset( error.networkResponse.headers));
+                            JSONObject json = new JSONObject(string);
+                            if ( json.getString("message") != null ) {
+                                callback.onError(json.getString("message"));
+                            } else {
+                                callback.onError("Something went wrong");
+                            }
+                        } catch (Exception e) {
+                            callback.onError("Something went wrong");
+                        }
+                    } else {
+                        if ( error.getMessage() != null ) {
+                            callback.onError(error.getMessage());
+                        } else {
+                            if ( error.getLocalizedMessage() != null ) {
+                                callback.onError(error.getLocalizedMessage());
+                            } else {
+                                callback.onError("Something went wrong");
+                            }
+                        }
+                    }
+                } catch (Exception e) {
+                    callback.onError("Something went wrong");
                 }
             }
         }){
@@ -194,7 +246,7 @@ public class BarberrosService {
         ServiceSingleton.getInstance(context).addRequestToQueue(request, TagList.GET_BARBERS_TAG);
     }
 
-    public static void getFavorites(String username, final String token) {
+    public static void getFavorites(String username, final String token, Context context, final ServiceCallback callback) {
         JsonObjectRequest request = new JsonObjectRequest(
                 Request.Method.GET, UrlList.getFavoriteUrl(username), null, new Response.Listener<JSONObject>() {
             @Override
@@ -203,6 +255,33 @@ public class BarberrosService {
         }, new Response.ErrorListener() {
             @Override
             public void onErrorResponse(VolleyError error) {
+                try {
+                    if ( error.networkResponse.data != null ) {
+                        try {
+                            String string = new String( error.networkResponse.data, HttpHeaderParser.parseCharset( error.networkResponse.headers));
+                            JSONObject json = new JSONObject(string);
+                            if ( json.getString("message") != null ) {
+                                callback.onError(json.getString("message"));
+                            } else {
+                                callback.onError("Something went wrong");
+                            }
+                        } catch (Exception e) {
+                            callback.onError("Something went wrong");
+                        }
+                    } else {
+                        if ( error.getMessage() != null ) {
+                            callback.onError(error.getMessage());
+                        } else {
+                            if ( error.getLocalizedMessage() != null ) {
+                                callback.onError(error.getLocalizedMessage());
+                            } else {
+                                callback.onError("Something went wrong");
+                            }
+                        }
+                    }
+                } catch (Exception e) {
+                    callback.onError("Something went wrong");
+                }
             }
         }){
             @Override
@@ -212,6 +291,8 @@ public class BarberrosService {
                 return headers;
             }
         };
+
+        ServiceSingleton.getInstance(context).addRequestToQueue(request, TagList.GET_FAVORITES_TAG);
     }
 
     /**
