@@ -1,4 +1,4 @@
-#Wed Jun 20 17:06:02 WIB 2018
-base.0=/home/orionstark/Documents/barberros-android/app/build/intermediates/transforms/dexMerger/debug/6
+#Fri Jun 22 13:26:52 ICT 2018
+base.0=C\:\\Users\\asus\\Desktop\\New folder\\barberros-android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\6
 path.0=classes.dex
 renamed.0=classes.dex

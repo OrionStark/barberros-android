@@ -1,4 +1,4 @@
-#Fri Jun 15 00:28:24 WIB 2018
+#Fri Jun 22 16:04:25 ICT 2018
 path.3=classes.dex
 path.2=classes.dex
 path.1=classes.dex
@@ -7,7 +7,7 @@ renamed.3=classes4.dex
 renamed.2=classes3.dex
 renamed.1=classes2.dex
 renamed.0=classes.dex
-base.3=/home/orionstark/Documents/barberros-android/app/build/intermediates/transforms/dexMerger/debug/13
-base.2=/home/orionstark/Documents/barberros-android/app/build/intermediates/transforms/dexMerger/debug/14
-base.1=/home/orionstark/Documents/barberros-android/app/build/intermediates/transforms/dexMerger/debug/11
-base.0=/home/orionstark/Documents/barberros-android/app/build/intermediates/transforms/dexMerger/debug/12
+base.3=C\:\\Users\\asus\\Desktop\\New folder\\barberros-android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\14
+base.2=C\:\\Users\\asus\\Desktop\\New folder\\barberros-android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\12
+base.1=C\:\\Users\\asus\\Desktop\\New folder\\barberros-android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\13
+base.0=C\:\\Users\\asus\\Desktop\\New folder\\barberros-android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\11

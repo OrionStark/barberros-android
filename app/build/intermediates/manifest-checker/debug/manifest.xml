@@ -45,7 +45,6 @@
         <activity
             android:name="com.example.orionstark.barberros.controllers.activities.PassConfigActivity"
             android:label="Password Config" />
-        <activity android:name="com.example.orionstark.barberros.controllers.activities.ProfileActivity" />
 
         <meta-data
             android:name="android.support.VERSION"

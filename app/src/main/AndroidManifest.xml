@@ -37,7 +37,6 @@
         <activity
             android:name=".controllers.activities.PassConfigActivity"
             android:label="Password Config"></activity>
-        <activity android:name=".controllers.activities.ProfileActivity"></activity>
     </application>
 
 </manifest>
