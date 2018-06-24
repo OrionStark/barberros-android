@@ -62,9 +62,9 @@ public class HomeActivity extends AppCompatActivity {
         switch (item.getItemId()){
             case R.id.search:
                 return true;
-//            case R.id.profil:
-//                startActivity(new Intent(this, ProfileActivity.class));
-//                return true;
+            case R.id.profil:
+                startActivity(new Intent(this, ProfileActivity.class));
+                return true;
 
             default:
                 return super.onOptionsItemSelected(item);

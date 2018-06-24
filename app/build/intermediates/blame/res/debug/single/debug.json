@@ -92,6 +92,10 @@
         "source": "C:\\Users\\asus\\Desktop\\New folder\\barberros-android\\app\\src\\main\\res\\drawable\\nav.xml"
     },
     {
+        "merged": "C:\\Users\\asus\\Desktop\\New folder\\barberros-android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_clock.xml.flat",
+        "source": "C:\\Users\\asus\\Desktop\\New folder\\barberros-android\\app\\src\\main\\res\\drawable-v24\\clock.xml"
+    },
+    {
         "merged": "C:\\Users\\asus\\Desktop\\New folder\\barberros-android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
         "source": "C:\\Users\\asus\\Desktop\\New folder\\barberros-android\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
@@ -310,6 +314,10 @@
     {
         "merged": "C:\\Users\\asus\\Desktop\\New folder\\barberros-android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-mdpi-v17_abc_ic_menu_cut_mtrl_alpha.png.flat",
         "source": "C:\\Users\\asus\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\b34336131808a820ca4e609e757af8c9\\res\\drawable-ldrtl-mdpi-v17\\abc_ic_menu_cut_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\asus\\Desktop\\New folder\\barberros-android\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_empty_appointment.xml.flat",
+        "source": "C:\\Users\\asus\\Desktop\\New folder\\barberros-android\\app\\src\\main\\res\\layout\\fragment_empty_appointment.xml"
     },
     {
         "merged": "C:\\Users\\asus\\Desktop\\New folder\\barberros-android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_ic_menu_share_mtrl_alpha.png.flat",
@@ -592,12 +600,12 @@
         "source": "C:\\Users\\asus\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\b34336131808a820ca4e609e757af8c9\\res\\drawable-ldrtl-mdpi-v17\\abc_ic_menu_copy_mtrl_am_alpha.png"
     },
     {
-        "merged": "C:\\Users\\asus\\Desktop\\New folder\\barberros-android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_list_pressed_holo_light.9.png.flat",
-        "source": "C:\\Users\\asus\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\b34336131808a820ca4e609e757af8c9\\res\\drawable-hdpi-v4\\abc_list_pressed_holo_light.9.png"
-    },
-    {
         "merged": "C:\\Users\\asus\\Desktop\\New folder\\barberros-android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_textfield_activated_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\asus\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\b34336131808a820ca4e609e757af8c9\\res\\drawable-hdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\asus\\Desktop\\New folder\\barberros-android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_list_pressed_holo_light.9.png.flat",
+        "source": "C:\\Users\\asus\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\b34336131808a820ca4e609e757af8c9\\res\\drawable-hdpi-v4\\abc_list_pressed_holo_light.9.png"
     },
     {
         "merged": "C:\\Users\\asus\\Desktop\\New folder\\barberros-android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_search.png.flat",
@@ -924,6 +932,10 @@
         "source": "C:\\Users\\asus\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\a2de4c2fce8c86d056ae3a5992fcf4eb\\res\\drawable-xxhdpi-v4\\design_ic_visibility_off.png"
     },
     {
+        "merged": "C:\\Users\\asus\\Desktop\\New folder\\barberros-android\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_more_info.xml.flat",
+        "source": "C:\\Users\\asus\\Desktop\\New folder\\barberros-android\\app\\src\\main\\res\\layout\\activity_more_info.xml"
+    },
+    {
         "merged": "C:\\Users\\asus\\Desktop\\New folder\\barberros-android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_list_longpressed_holo.9.png.flat",
         "source": "C:\\Users\\asus\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\b34336131808a820ca4e609e757af8c9\\res\\drawable-xhdpi-v4\\abc_list_longpressed_holo.9.png"
     },
@@ -1094,6 +1106,10 @@
     {
         "merged": "C:\\Users\\asus\\Desktop\\New folder\\barberros-android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_list_divider_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\asus\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\b34336131808a820ca4e609e757af8c9\\res\\drawable-hdpi-v4\\abc_list_divider_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\asus\\Desktop\\New folder\\barberros-android\\app\\build\\intermediates\\res\\merged\\debug\\xml_searchable.xml.flat",
+        "source": "C:\\Users\\asus\\Desktop\\New folder\\barberros-android\\app\\src\\main\\res\\xml\\searchable.xml"
     },
     {
         "merged": "C:\\Users\\asus\\Desktop\\New folder\\barberros-android\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_media_cancel_action.xml.flat",
@@ -1304,6 +1320,10 @@
         "source": "C:\\Users\\asus\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\b34336131808a820ca4e609e757af8c9\\res\\drawable-mdpi-v4\\abc_textfield_default_mtrl_alpha.9.png"
     },
     {
+        "merged": "C:\\Users\\asus\\Desktop\\New folder\\barberros-android\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_empty_favorite.xml.flat",
+        "source": "C:\\Users\\asus\\Desktop\\New folder\\barberros-android\\app\\src\\main\\res\\layout\\fragment_empty_favorite.xml"
+    },
+    {
         "merged": "C:\\Users\\asus\\Desktop\\New folder\\barberros-android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_ab_share_pack_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\asus\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\b34336131808a820ca4e609e757af8c9\\res\\drawable-xhdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png"
     },
@@ -1490,6 +1510,10 @@
     {
         "merged": "C:\\Users\\asus\\Desktop\\New folder\\barberros-android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-xhdpi-v17_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
         "source": "C:\\Users\\asus\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\b34336131808a820ca4e609e757af8c9\\res\\drawable-ldrtl-xhdpi-v17\\abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\asus\\Desktop\\New folder\\barberros-android\\app\\build\\intermediates\\res\\merged\\debug\\menu_menu_search.xml.flat",
+        "source": "C:\\Users\\asus\\Desktop\\New folder\\barberros-android\\app\\src\\main\\res\\menu\\menu_search.xml"
     },
     {
         "merged": "C:\\Users\\asus\\Desktop\\New folder\\barberros-android\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_expanded_menu_layout.xml.flat",
@@ -1714,6 +1738,10 @@
     {
         "merged": "C:\\Users\\asus\\Desktop\\New folder\\barberros-android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_abc_btn_colored_material.xml.flat",
         "source": "C:\\Users\\asus\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\b34336131808a820ca4e609e757af8c9\\res\\drawable-v21\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\asus\\Desktop\\New folder\\barberros-android\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_search.xml.flat",
+        "source": "C:\\Users\\asus\\Desktop\\New folder\\barberros-android\\app\\src\\main\\res\\layout\\activity_search.xml"
     },
     {
         "merged": "C:\\Users\\asus\\Desktop\\New folder\\barberros-android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_cab_background_top_mtrl_alpha.9.png.flat",

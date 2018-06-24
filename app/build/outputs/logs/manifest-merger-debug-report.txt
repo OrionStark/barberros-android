@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\asus\Desktop\New folder\barberros-android\app\src\main\AndroidManifest.xml:2:1-42:12
-INJECTED from C:\Users\asus\Desktop\New folder\barberros-android\app\src\main\AndroidManifest.xml:2:1-42:12
-INJECTED from C:\Users\asus\Desktop\New folder\barberros-android\app\src\main\AndroidManifest.xml:2:1-42:12
-INJECTED from C:\Users\asus\Desktop\New folder\barberros-android\app\src\main\AndroidManifest.xml:2:1-42:12
+ADDED from C:\Users\asus\Desktop\New folder\barberros-android\app\src\main\AndroidManifest.xml:2:1-55:12
+INJECTED from C:\Users\asus\Desktop\New folder\barberros-android\app\src\main\AndroidManifest.xml:2:1-55:12
+INJECTED from C:\Users\asus\Desktop\New folder\barberros-android\app\src\main\AndroidManifest.xml:2:1-55:12
+INJECTED from C:\Users\asus\Desktop\New folder\barberros-android\app\src\main\AndroidManifest.xml:2:1-55:12
 MERGED from [com.android.support:design:26.1.0] C:\Users\asus\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\a2de4c2fce8c86d056ae3a5992fcf4eb\AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\asus\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\b34336131808a820ca4e609e757af8c9\AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\asus\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\c1786d0e4018e33b02870e615bcbec43\AndroidManifest.xml:2:1-11:12
@@ -21,20 +21,20 @@ MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\asus\.gradl
 MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\asus\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\13c0305effb2398ed5bc1e3c61186934\AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-compat:26.1.0] C:\Users\asus\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\c4e0f65ca4a52bc433361464d85c1a6a\AndroidManifest.xml:17:1-31:12
 MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\asus\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\a8a99ecbb795f8f584f24e3ec0c7d3a4\AndroidManifest.xml:17:1-30:12
-INJECTED from C:\Users\asus\Desktop\New folder\barberros-android\app\src\main\AndroidManifest.xml:2:1-42:12
-INJECTED from C:\Users\asus\Desktop\New folder\barberros-android\app\src\main\AndroidManifest.xml:2:1-42:12
-INJECTED from C:\Users\asus\Desktop\New folder\barberros-android\app\src\main\AndroidManifest.xml:2:1-42:12
+INJECTED from C:\Users\asus\Desktop\New folder\barberros-android\app\src\main\AndroidManifest.xml:2:1-55:12
+INJECTED from C:\Users\asus\Desktop\New folder\barberros-android\app\src\main\AndroidManifest.xml:2:1-55:12
+INJECTED from C:\Users\asus\Desktop\New folder\barberros-android\app\src\main\AndroidManifest.xml:2:1-55:12
 	package
 		ADDED from C:\Users\asus\Desktop\New folder\barberros-android\app\src\main\AndroidManifest.xml:3:5-47
 		INJECTED from C:\Users\asus\Desktop\New folder\barberros-android\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\asus\Desktop\New folder\barberros-android\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\asus\Desktop\New folder\barberros-android\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\asus\Desktop\New folder\barberros-android\app\src\main\AndroidManifest.xml:2:1-42:12
+		ADDED from C:\Users\asus\Desktop\New folder\barberros-android\app\src\main\AndroidManifest.xml:2:1-55:12
 		INJECTED from C:\Users\asus\Desktop\New folder\barberros-android\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\asus\Desktop\New folder\barberros-android\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\asus\Desktop\New folder\barberros-android\app\src\main\AndroidManifest.xml:2:1-42:12
+		ADDED from C:\Users\asus\Desktop\New folder\barberros-android\app\src\main\AndroidManifest.xml:2:1-55:12
 		INJECTED from C:\Users\asus\Desktop\New folder\barberros-android\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\asus\Desktop\New folder\barberros-android\app\src\main\AndroidManifest.xml:2:11-69
@@ -67,7 +67,7 @@ ADDED from C:\Users\asus\Desktop\New folder\barberros-android\app\src\main\Andro
 	android:name
 		ADDED from C:\Users\asus\Desktop\New folder\barberros-android\app\src\main\AndroidManifest.xml:12:22-76
 application
-ADDED from C:\Users\asus\Desktop\New folder\barberros-android\app\src\main\AndroidManifest.xml:14:5-40:19
+ADDED from C:\Users\asus\Desktop\New folder\barberros-android\app\src\main\AndroidManifest.xml:14:5-53:19
 MERGED from [com.android.support:design:26.1.0] C:\Users\asus\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\a2de4c2fce8c86d056ae3a5992fcf4eb\AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:design:26.1.0] C:\Users\asus\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\a2de4c2fce8c86d056ae3a5992fcf4eb\AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\asus\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\b34336131808a820ca4e609e757af8c9\AndroidManifest.xml:25:5-29:19
@@ -150,6 +150,30 @@ ADDED from C:\Users\asus\Desktop\New folder\barberros-android\app\src\main\Andro
 		ADDED from C:\Users\asus\Desktop\New folder\barberros-android\app\src\main\AndroidManifest.xml:39:13-44
 	android:name
 		ADDED from C:\Users\asus\Desktop\New folder\barberros-android\app\src\main\AndroidManifest.xml:38:13-70
+activity#com.example.orionstark.barberros.controllers.activities.ProfileActivity
+ADDED from C:\Users\asus\Desktop\New folder\barberros-android\app\src\main\AndroidManifest.xml:40:9-41:79
+	android:name
+		ADDED from C:\Users\asus\Desktop\New folder\barberros-android\app\src\main\AndroidManifest.xml:41:13-67
+activity#com.example.orionstark.barberros.controllers.activities.SearchActivity
+ADDED from C:\Users\asus\Desktop\New folder\barberros-android\app\src\main\AndroidManifest.xml:43:9-52:20
+	android:supportsRtl
+		ADDED from C:\Users\asus\Desktop\New folder\barberros-android\app\src\main\AndroidManifest.xml:48:13-39
+	android:label
+		ADDED from C:\Users\asus\Desktop\New folder\barberros-android\app\src\main\AndroidManifest.xml:46:13-45
+	android:launchMode
+		ADDED from C:\Users\asus\Desktop\New folder\barberros-android\app\src\main\AndroidManifest.xml:47:13-43
+	android:icon
+		ADDED from C:\Users\asus\Desktop\New folder\barberros-android\app\src\main\AndroidManifest.xml:45:13-47
+	android:allowBackup
+		ADDED from C:\Users\asus\Desktop\New folder\barberros-android\app\src\main\AndroidManifest.xml:44:13-39
+	android:name
+		ADDED from C:\Users\asus\Desktop\New folder\barberros-android\app\src\main\AndroidManifest.xml:43:19-72
+meta-data#android.app.searchable
+ADDED from C:\Users\asus\Desktop\New folder\barberros-android\app\src\main\AndroidManifest.xml:49:13-51:54
+	android:resource
+		ADDED from C:\Users\asus\Desktop\New folder\barberros-android\app\src\main\AndroidManifest.xml:51:17-51
+	android:name
+		ADDED from C:\Users\asus\Desktop\New folder\barberros-android\app\src\main\AndroidManifest.xml:50:17-54
 uses-sdk
 INJECTED from C:\Users\asus\Desktop\New folder\barberros-android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\asus\Desktop\New folder\barberros-android\app\src\main\AndroidManifest.xml

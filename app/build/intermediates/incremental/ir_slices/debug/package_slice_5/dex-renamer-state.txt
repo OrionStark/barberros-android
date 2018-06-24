@@ -1,4 +1,0 @@
-#Fri Jun 22 18:20:49 ICT 2018
-base.0=C\:\\Users\\asus\\Desktop\\New folder\\barberros-android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\5
-path.0=classes.dex
-renamed.0=classes.dex
