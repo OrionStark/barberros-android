@@ -1,0 +1,40 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.orionstark.barberros.controllers.fragments.EmptyFavoriteFragment"
+    android:padding="10dp">
+
+   <android.support.v7.widget.CardView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:background="@drawable/border_radius">
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical">
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:id="@+id/textFav1"
+               android:text="Your Favorite
+is empty"
+               android:textSize="36sp"
+               android:textColor="#fff"
+               android:padding="10dp"
+               android:gravity="center"
+               android:background="@color/colorPrimary"/>
+           <Button
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:id="@+id/btn_browse"
+               android:text="Browse barber"
+               android:padding="10dp"
+               android:textSize="30sp"
+               android:textColor="@color/colorPrimary"
+               android:background="@color/cardview_light_background"/>
+       </LinearLayout>
+   </android.support.v7.widget.CardView>
+
+</FrameLayout>

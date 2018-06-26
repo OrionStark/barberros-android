@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/card_view"
+    android:clickable="true"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="8dp"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:foreground="?attr/selectableItemBackground">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/border_radius">
+        <RelativeLayout
+            android:id="@+id/list_img"
+            android:layout_width="match_parent"
+            android:layout_height="200dp">
+            <!--<de.hdodenhof.circleimageview.CircleImageView-->
+                <!--android:id="@+id/Barbericon"-->
+                <!--android:layout_width="50dp"-->
+                <!--android:layout_height="50dp"-->
+                <!--android:layout_margin="10dp"-->
+                <!--android:src="@drawable/next_salon_logo" />-->
+            <TextView
+                android:layout_width ="wrap_content"
+                android:layout_height ="wrap_content"
+                android:layout_margin ="10dp"
+                android:text="Next Salon Sparman"
+                android:textColor="@android:color/white"
+                android:textSize="24sp"
+                android:id="@+id/txtBarber"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"></LinearLayout>
+            <TextView
+                android:id="@+id/alamat"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="bottom"
+                android:text="aabasbdjasbdyasbduyasbd"
+                android:textSize="16sp"
+                android:textColor="@android:color/white"
+                android:layout_marginLeft="5dp"/>
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_more"
+                android:layout_width="140dp"
+                android:layout_height="50dp"
+                android:background="@android:color/white"
+                android:text="More Info"
+                android:textColor="@android:color/black"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/btn_book"
+                android:layout_width="140dp"
+                android:layout_height="50dp"
+                android:background="@android:color/white"
+                android:text="Book Now"
+                android:textColor="@android:color/black"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/btn_fav"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="15dp"/>
+            <!--android:src="@drawable/favorite"-->
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -9,6 +9,7 @@ import android.view.ViewGroup;
 
 import com.example.orionstark.barberros.R;
 import com.example.orionstark.barberros.controllers.cellviews.ProfileCellViewFragment;
+import com.example.orionstark.barberros.models.User;
 import com.example.orionstark.barberros.utils.UserPreference;
 
 public class ProfileRecyclerAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
@@ -59,6 +60,7 @@ public class ProfileRecyclerAdapter extends RecyclerView.Adapter<RecyclerView.Vi
 
     @Override
     public int getItemCount() {
+
         return 5;
     }
 }
