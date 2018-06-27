@@ -63,4 +63,6 @@ public class BarberRecyclerAdapter extends RecyclerView.Adapter<BarberRecyclerAd
 
         }
     }
+
+
 }

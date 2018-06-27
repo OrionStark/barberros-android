@@ -4,6 +4,8 @@ import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.util.Base64;
+import android.util.Log;
+
 import com.android.volley.AuthFailureError;
 import com.android.volley.Request;
 import com.android.volley.Response;
@@ -173,8 +175,9 @@ public class BarberrosService {
                                 services_tmp.add(data.getJSONObject(j).getJSONArray("services").getString(i));
                             }
                             for ( int k = 0; k < data.getJSONObject(i).getJSONArray("times").length(); k++ ) {
-                                times_tmp.add(data.getJSONObject(k).getJSONArray("times").getString(i));
+                                times_tmp.add(data.getJSONObject(i).getJSONArray("times").getString(k));
                             }
+                            Log.d("RES",data.getJSONObject(i).getString("image"));
                             Barber.barbers.add(
                                 new Barber(
                                     data.getJSONObject(i).getString("_id"),
