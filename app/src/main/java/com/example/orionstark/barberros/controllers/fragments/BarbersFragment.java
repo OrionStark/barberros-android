@@ -36,24 +36,24 @@ public class BarbersFragment extends Fragment {
         return view;
     }
 
-    @Override
-    public void onResume() {
-        super.onResume();
-        BarberrosService.getBarbers(
-                UserPreference.getInstance(getContext()).getUser().getToken(),
-                getContext(),
-                new BarberrosService.ServiceCallback() {
-                    @Override
-                    public void onSucceed(String message) {
-                        rv.removeAllViews();
-                        adapter.notifyDataSetChanged();
-                    }
-
-                    @Override
-                    public void onError(String message) {
-                        Snackbar.make(view, message, Snackbar.LENGTH_SHORT).show();
-                    }
-                }
-        );
-    }
+//    @Override
+//    public void onResume() {
+//        super.onResume();
+//        BarberrosService.getBarbers(
+//                UserPreference.getInstance(getContext()).getUser().getToken(),
+//                getContext(),
+//                new BarberrosService.ServiceCallback() {
+//                    @Override
+//                    public void onSucceed(String message) {
+//                        rv.removeAllViews();
+//                        adapter.notifyDataSetChanged();
+//                    }
+//
+//                    @Override
+//                    public void onError(String message) {
+//                        Snackbar.make(view, message, Snackbar.LENGTH_SHORT).show();
+//                    }
+//                }
+//        );
+//    }
 }

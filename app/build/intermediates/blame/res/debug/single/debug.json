@@ -1136,6 +1136,10 @@
         "source": "C:\\Users\\asus\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\b34336131808a820ca4e609e757af8c9\\res\\drawable-xxxhdpi-v4\\abc_spinner_mtrl_am_alpha.9.png"
     },
     {
+        "merged": "C:\\Users\\asus\\Desktop\\New folder\\barberros-android\\app\\build\\intermediates\\res\\merged\\debug\\layout_favorite_item_row.xml.flat",
+        "source": "C:\\Users\\asus\\Desktop\\New folder\\barberros-android\\app\\src\\main\\res\\layout\\favorite_item_row.xml"
+    },
+    {
         "merged": "C:\\Users\\asus\\Desktop\\New folder\\barberros-android\\app\\build\\intermediates\\res\\merged\\debug\\anim-v21_design_bottom_sheet_slide_in.xml.flat",
         "source": "C:\\Users\\asus\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\a2de4c2fce8c86d056ae3a5992fcf4eb\\res\\anim-v21\\design_bottom_sheet_slide_in.xml"
     },
@@ -1738,6 +1742,10 @@
     {
         "merged": "C:\\Users\\asus\\Desktop\\New folder\\barberros-android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_abc_btn_colored_material.xml.flat",
         "source": "C:\\Users\\asus\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\b34336131808a820ca4e609e757af8c9\\res\\drawable-v21\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\asus\\Desktop\\New folder\\barberros-android\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_make_appointment.xml.flat",
+        "source": "C:\\Users\\asus\\Desktop\\New folder\\barberros-android\\app\\src\\main\\res\\layout\\activity_make_appointment.xml"
     },
     {
         "merged": "C:\\Users\\asus\\Desktop\\New folder\\barberros-android\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_search.xml.flat",
